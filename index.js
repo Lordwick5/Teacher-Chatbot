@@ -7,3 +7,6 @@ console.log(greeting);
 
 let subject = "JavaScript";
 let topic = "strings";
+
+let sentence = `Today, you will learn about ${topic} in ${subject}.`;
+console.log(sentence);
