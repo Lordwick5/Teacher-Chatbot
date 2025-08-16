@@ -2,13 +2,15 @@
 
 let botName = "teacherBot";
 
-let greeting = `My name is ${botName}.`;
+let greeting = `My name is ${botName}.`; //template literal
 console.log(greeting);
 
 let subject = "JavaScript";
+console.log(subject.length); //to find length
+
 let topic = "strings";
 
-let sentence = `Today, you will learn about ${topic} in ${subject}.`;
+let sentence = `Today, you will learn about ${topic} in ${subject}.`; //template literal
 console.log(sentence);
 
 let strLengthIntro = `Here is an example of using the length property on the word ${subject}.`;
